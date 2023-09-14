@@ -16,6 +16,8 @@ const getLogin = (req, res) => {
     res.send("Welcome to the Google ");
   };
 
+  const getadmin = (req, res) => {
+    res.render("index");
+  };
 
-
-module.exports ={getSignup,postSignup,getLogin,postLogin}
+module.exports ={getSignup,postSignup,getLogin,postLogin,getadmin}
